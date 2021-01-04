@@ -1,14 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 // import UserShow from "./views/Users/Show";
+import Header from "../components/HelloWorld.vue";
 
 const routes = [
-    // {
-    //     path: "/",
-    //     name: "home",
-    //     component: NewsFeed,
-    //     meta: { title: "News Feed" },
-    // },
+    {
+        path: "/",
+        name: "home",
+        component: Header,
+        meta: { title: "News Feed" },
+    },
     // {
     //     path: "/users/:userId",
     //     name: "user.show",
