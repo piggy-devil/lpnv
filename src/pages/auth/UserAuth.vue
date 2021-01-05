@@ -59,7 +59,7 @@
 </template>
 
 <script>
-import axios from '../../components/plugins/axios'
+import axios from '../../plugins/axios.js'
 export default {
   methods: {
     login() {

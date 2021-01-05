@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 
 // import UserShow from "./views/Users/Show";
 import Header from "../components/HelloWorld.vue";
-import UserAuth from "../pages/auth/UserAuth.vue"
+import UserAuth from "../pages/auth/UserAuth.vue";
+import FriendContact from "../components/FriendContact.vue";
 
 const routes = [
     {
@@ -15,6 +16,10 @@ const routes = [
         path: "/auth",
         name: "auth",
         component: UserAuth,
+    },
+    {
+        path: "/friend-contact",
+        component: FriendContact,
     },
     // {
     //     path: "/users/:userId",
